@@ -1,0 +1,27 @@
+{
+  "name": "organ-donation-dapp",
+  "version": "1.0.0",
+  "description": "Secure Organ Donation Management System using Blockchain",
+  "main": "truffle-config.js",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.6",
+    "@truffle/hdwallet-provider": "^2.1.15",
+    "web3": "^1.10.4"
+  },
+  "scripts": {
+    "test": "truffle test",
+    "compile": "truffle compile",
+    "migrate": "truffle migrate"
+  },
+  "keywords": [
+    "blockchain",
+    "organ-donation",
+    "ethereum",
+    "smart-contracts"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
